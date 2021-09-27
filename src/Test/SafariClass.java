@@ -1,10 +1,16 @@
 package Test;
 
-public class SafariClass {
+public class SafariClass implements BrowserInterface {
+	
+	@Override
 
-	public static void main(String[] args) {
+	public void OpenBrowser() {
 		// TODO Auto-generated method stub
 
 	}
 
+	@Override
+
+	public void CloseBrowser() {
+		// TODO Auto-generated method stub
 }
