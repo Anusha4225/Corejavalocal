@@ -1,8 +1,10 @@
 package Test;
 
-public class BrowserInterface {
+public interface BrowserInterface {
 
-	public abstract void OpenBrowser();
-	public void CloseBrowser();
+	public abstract void OpenBrowserClose();
+	public void CloseBrowserClose();
+	void OpenBrowserClass();
+	void CloseBrowserClass();
 	
 }

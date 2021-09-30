@@ -1,16 +1,18 @@
 package Test;
 
-public class BrowserClass {
+ public abstract class BrowserClass {
 	
-	String Name;
-	int version;
+	 String name;
+	 float version;
+	
+	
 	
 	public void display() {
 		
-		
 	}
+	
 	public abstract void OpenBrowser();
 	
-	public abstract void CloseBrowser();
+	public abstract  void CloseBrowser();
 
 }
